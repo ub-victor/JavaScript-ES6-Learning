@@ -1,4 +1,5 @@
 window.onload = function() {
-var str = "graaaaavy";
-console.log(str.replace(5)); 
+var str = "goodbye";
+
+console.log(str.startsWith("Good")); // true
 }

@@ -1,4 +1,4 @@
-greet = (num1, num2)=>  num1 +" "+ num2;
+let numADD = (a, b) => a + b;
 
 
-console.log(greet('Hello',' victoire'));
+console.log(numADD(2,3)); // 3

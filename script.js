@@ -1,6 +1,4 @@
-let greet = (user)=> {
-    console.log('Hello World! ' + user);
-    return 1;
-}
+greet = (num1, num2)=>  num1 +" "+ num2;
 
-console.log(greet('Victoire'));
+
+console.log(greet('Hello',' victoire'));

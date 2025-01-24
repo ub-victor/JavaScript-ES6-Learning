@@ -1,6 +1,6 @@
 window.onload = function() {
-  var temp = `hello my
-  
-  name is Victor`;
-  console.log(temp);
+  function logNinja(name , age){
+    console.log(`my name is ${name} amd I am ${age} years old`);
+  };
+  logNinja("Erick", 23);
 }
